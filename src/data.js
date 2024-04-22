@@ -6,7 +6,7 @@ const data = [
       "website for browsing and renting vans, you can login using the email:b@b.com password:p123 ",
     tags: ["React", "React-Router"],
     id: 1,
-    projectImg: "../images/vanlife.png",
+    projectImg: "/vanlife.png",
   },
   {
     projectUrl: "https://rawi2115.github.io/Quizzical/",
@@ -14,7 +14,7 @@ const data = [
     description: "Random Quizes website",
     tags: ["React"],
     id: 2,
-    projectImg: "../images/quizzical.png",
+    projectImg: "/quizzical.png",
   },
   {
     projectUrl: "https://rawi2115.github.io/Movie-Watchlist/",
@@ -22,7 +22,7 @@ const data = [
     description: "Search,find and movies to your watchlist",
     tags: ["Vanilla Javascript"],
     id: 3,
-    projectImg: "../images/watchlist.png",
+    projectImg: "/watchlist.png",
   },
 ];
 export const TabTitle = (newTitle) => {
