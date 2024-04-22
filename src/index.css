@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@layer components {
+  body {
+    @apply bg-lightMode bg-no-repeat bg-cover min-h-screen dark:bg-darkMode dark:text-white;
+  }
+  #root {
+    @apply font-RobotoMono;
+  }
+  .project {
+    @apply shadow-2xl flex flex-col  gap-6 p-4;
+  }
+  .projects-container {
+    @apply grid md:grid-cols-2 max-w-4xl my-10 mx-auto  justify-items-center gap-6;
+  }
+}
