@@ -9,8 +9,8 @@ export default {
         RobotoMono: ['"Roboto Mono"', ...defaultTheme.fontFamily.sans],
       },
       backgroundImage: {
-        lightMode: "url('src/light-mode-blob-scene.svg')",
-        darkMode: "url('src/dark-mode-blob-scene.svg')",
+        lightMode: "url('/light-mode-blob-scene.svg')",
+        darkMode: "url('/dark-mode-blob-scene.svg')",
       },
     },
   },
