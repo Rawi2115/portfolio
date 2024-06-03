@@ -20,6 +20,6 @@
     @apply shadow-2xl flex flex-col  gap-6 p-4;
   }
   .projects-container {
-    @apply grid md:grid-cols-2 max-w-4xl my-10 mx-auto  justify-items-center gap-6;
+    @apply grid md:grid-cols-2 max-w-4xl my-10 mx-auto  justify-items-center gap-6 mb-12;
   }
 }
