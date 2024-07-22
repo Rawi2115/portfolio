@@ -3,6 +3,7 @@ import { SiReactrouter } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { Link } from "react-router-dom";
+import { RiNextjsFill } from "react-icons/ri";
 
 export default function Projects() {
   TabTitle("Projects");
@@ -22,6 +23,9 @@ export default function Projects() {
             key={tag}
           />
         );
+      }
+      if (tag == "Nextjs") {
+        return <RiNextjsFill size="25" />;
       }
     });
 
